@@ -1,0 +1,27 @@
+분류(classification) 알고리즘
+    - 퍼셉트론
+    - 아달라인(ADAptive LInear NEuron, ADALINE)
+        : 퍼센트론의 향상된 버전
+
+1943 MCP
+1957 Perceptron
+1969 MLP(Multi-Layer Perceptron)
+1974 Backpropagation(알고리즘은 아님)
+
+(참고자료 https://m.blog.naver.com/PostView.nhn?blogId=samsjang&logNo=221142104977&proxyReferer=https:%2F%2Fwww.google.com%2F)
+
+****함수****
+함수 : input -> T, output -> T = State
+
+
+Cost Function
+Activation Function
+    - 선형 활성화 함수
+    - 비선형 활성화 함수
+Identity Function
+최적화 시키기 위한 Object Function : minimized(최소화) cost function 
+
+학습률 learning rate(lr) : 
+        0.01 너무 크다 -> CF 커진다(최소값을 지나쳐서 오차가 커짐)
+        0.0001 너무 작다 -> Epoch가 커진다
+

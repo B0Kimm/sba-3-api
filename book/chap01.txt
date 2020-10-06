@@ -1,0 +1,43 @@
+1.1 ML의 세 가지 종류 ?
+    지도(supervised) label T (레이블이 있다)
+    비지도(unsupervised) label F (레이블이 없다)
+    label : sample에 할당된 class(label의 category)
+    강화(reinforcement)
+
+
+1.2 ML의 세가지 기능?
+지도(supervised) 학습은 예측 할 때 사용
+    분류 - 범주(category), 이산적 데이터, 정수형
+         - 이진 분류(binary classification) : True or False
+         - 다중 분류(multiclass classification) : multi 
+    회귀(regression) - 연속적 데이터, 실수형
+         - 선형 회귀(Linear regression)
+         - 비선형 회귀(Logistic regression)
+비지도(unsupervised) 학습 -> (숨겨진) 구조; 구조화(분류)
+    군집(clustering)
+    차원축소 (dimentionality reduction)
+강화(reinforcement) 학습 -> 반응형
+
+
+1.3 기본 용어와 표기법 소개
+
+ML 시스템 구축 로드맵 (개발 로드맵)
+1. 수집 (10%)
+    - 웹크롤링,
+    - 텍스트 마이닝
+2. 전처리: 데이터 형태 갖추기 (80%)
+    - SNR (signal to noise ratio)
+3. 모델링: 예측 모델 훈련과 선택 (9%)
+4. 모델을 평가 (1%)
+    - accuracy(정확도)
+    - 하이퍼파라미터 : 연결 매개변수(파라미터) test(param)
+    - 하이퍼링크 : 연결 링크
+    - 하이퍼미디어 : 분산 시스템
+
+    함수 : y = f(x), 예측
+    공급 : y = f() -> return만 있음
+    소비 : f(x) -> return이 없음
+    (non-existence )런 : f()
+
+    하이퍼파라미터 최적화기법
+    (학습하는) 파라미터
