@@ -1,0 +1,46 @@
+nn?
+n ? 
+
+neuron vs neural network? (nueral network : 다층으로 된 신경망을 가지고 있다)
+단수 vs 복수
+
+Json : {}, [] /단수, 복수(array)
+java : member List<member>, 객체, 컬렉션
+tensor : scalar, vector
+
+y = f(x) function
+f(x) setter : consumer
+y = f() getter : supplier
+bool = f(x) : predicate (서로 연결되어야지만 알고리즘!!!)
+f() :runnable
+
+function + prop = object + object = collection
+function + function => algorithm + algorithm => model
+
+prop + prop = database
+
+neu--ron : 이진 출력 Y/N       0, 1 --bool 함수(불대수; Boolean Algebra)  != 알고리즘
+percept--ron : 인식하는 뉴런   확률(가중치) -- boole algebra + 계단함수     == 알고리즘
+Adaline : boole algebra + 계단함수 + 활성화 함수                            == 알고리즘
+
+
+
+boole algebra + 계단함수 + 활성화 함수에서의 확장 -> neural network
+
+n
+perceptron 활성화 함수 exists, 계단 함수
+nn 활성화 함수 exists, 시그모이드, 이산 정수 ex(결과가 5, 6, 7 과 같이 떨어져 있는 숫자)
+    AI 겨울
+    nn 단위 -> 복수형 nnn(x) -> nn을  layer라고 부르고 있음 -> dnn
+dnn Deep nueral network (다층) [algorithm + nn(layer) + dframe + function(main)] -> model
+cnn relu(시그모이드 대신), 연속 실수 ex(결과 연속으로 이어져있는 0.04 0.041 etc)
+rnn
+lstm
+gan
+
+
+dimension
+ex) set, tuple(list)
+
+하이퍼파라미터 (input layer -> hidden layer은닉층 -> output layer)
+단순 파라미터 =? (input layer -> output layer)

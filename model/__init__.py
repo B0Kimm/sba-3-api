@@ -5,14 +5,14 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 from model.iris_model import IrisModel
 from model.cctv import Cctv
 from model.crime import Crime
+from model.police import Police
 
 if __name__ == '__main__':
     # iris = IrisModel()
     #iris.draw_scatter()
     # iris.draw_errors()
     # iris.draw_adaline_graph()
-    crime = Crime()
-    crime.read_file()
-    cctv = Cctv()
+    police = Police()
+    
 
     

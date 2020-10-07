@@ -21,11 +21,12 @@ class Police :
 
     def hook_process(self) :
         print('----------------- POLICE ----------------')
-        self.create_crime_rate()
+        self.set_police_norm()
+        print(self.get_police_norm().head())
 
-    def create_crime_rate(self) :
+    def set_police_norm(self) :
         crime = Crime()
-        crime_police = crime.get_crime_police()
+        crime_police = crime.set_police_norm()
         police = pd.pivot_table(crime_police, index='구별', aggfunc=np.sum)
         print(f'{police.head()}')
         police['살인검거율'] = (police['살인 검거']/ police['살인 발생']) *100
@@ -82,6 +83,13 @@ class Police :
         
         police_norm.to_csv(reader.new_file(), sep=',', encoding='utf-8')
 
+    def get_police_norm(self) :
+        reader = self.reader
+        reader.context = os.path.join(baseurl,'saved_data')
+        reader.fname = 'police_norm.csv'
+        reader.new_file()
+        police_norm = reader.csv_to_dframe()
+        return police_norm
 
 
 if __name__ == '__main__':
