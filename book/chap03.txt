@@ -32,7 +32,9 @@ perceptron 활성화 함수 exists, 계단 함수
 nn 활성화 함수 exists, 시그모이드, 이산 정수 ex(결과가 5, 6, 7 과 같이 떨어져 있는 숫자)
     AI 겨울
     nn 단위 -> 복수형 nnn(x) -> nn을  layer라고 부르고 있음 -> dnn
-dnn Deep nueral network (다층) [algorithm + nn(layer) + dframe + function(main)] -> model
+    layer가 1개(입력층-출력층은 1개의 층으로 생각)
+ann 신경뉴럴망(단층, layer가 1개)
+dnn Deep nueral network (다층/layer가 2개 이상) [algorithm + nn(layer) + dframe + function(main)] -> model
 cnn relu(시그모이드 대신), 연속 실수 ex(결과 연속으로 이어져있는 0.04 0.041 etc)
 rnn
 lstm
